@@ -11,6 +11,12 @@ import Socials from './Components/Socials'
 import Home from './Components/Home'
 
 function App() {
+  const darkmode =()=>{
+  document.body.style.backgroundcolor ="black";
+    document.body.style.color ="green";
+  
+  
+  }
   return (
     <Router>
       <div className="p-m-4">
